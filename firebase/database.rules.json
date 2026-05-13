@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "routes": {
+      ".read": true,
+      ".write": false
+    },
+    "pings": {
+      "$routeId": {
+        ".read": true,
+        ".write": true,
+        "$pingId": {
+          ".validate": "newData.hasChildren(['routeId','stopId','stopOrder','timestamp','reporterName','pingType','isCancellation'])"
+        }
+      }
+    },
+    "alerts": {
+      "$routeId": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

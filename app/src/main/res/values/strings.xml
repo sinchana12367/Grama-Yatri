@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grama-Yatri</string>
+    <string name="tagline">Community-Powered Bus Tracker</string>
+
+    <!-- Route screen -->
+    <string name="select_route">Select Your Route</string>
+    <string name="no_routes">No routes available.\nCheck your connection.</string>
+
+    <!-- Ping screen -->
+    <string name="ping_title">Ping Bus Location</string>
+    <string name="ping_instruction">Tell us where the bus is right now.</string>
+    <string name="ping_on_bus">I am currently on the bus</string>
+    <string name="ping_bus_passed">The bus just passed my stop</string>
+    <string name="btn_send_ping">Send Ping</string>
+
+    <!-- Report screen -->
+    <string name="report_title">Report an Issue</string>
+    <string name="report_hint">Describe the issue (e.g. Morning bus cancelled today)</string>
+    <string name="btn_post_alert">Post Alert</string>
+
+    <!-- ETA labels -->
+    <string name="eta_no_data">No data yet</string>
+    <string name="eta_cancelled">Cancelled today</string>
+    <string name="eta_passed">Bus passed</string>
+    <string name="eta_arriving">Arriving now</string>
+</resources>
